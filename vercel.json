@@ -1,3 +1,10 @@
 {
     "buildCommand": "OUTPUT=vercel astro build"
   }
+{
+  "build": {
+    "env": {
+      "PNPM_NO_FROZEN_LOCKFILE": "true"
+    }
+  }
+}
